@@ -1,12 +1,13 @@
 import './App.css';
-import { UserComponent, NavBarComponent } from './User'
+import { InfoComponent, InputComponent } from './HomePageComponent'
 
 function App() {
   return (
     <div className="App">
-      <NavBarComponent/>
-      <UserComponent name="Kevin" surname="Sama" age={22} />
-      <UserComponent name="Jose" surname="Ramirez" age={12} />
+      <InfoComponent />
+      <InputComponent />
+      <InputComponent />
+      <InputComponent />
     </div>
   );
 };
